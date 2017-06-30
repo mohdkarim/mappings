@@ -1,5 +1,6 @@
 organ_id|organ_name|tissue_id|tissue_name
 UBERON_0018707|bladder organ|UBERON_0002110|gall bladder
+UBERON_0018707|bladder organ|UBERON_0002110|gallbladder
 UBERON_0018707|bladder organ|UBERON_0001255|urinary bladder
 UBERON_0000178|blood|UBERON_0000178|blood
 UBERON_0000178|blood|CL_0000233|platelet
@@ -11,6 +12,7 @@ UBERON_0000955|brain|UBERON_0003547|brain meninx
 UBERON_0000955|brain|UBERON_0006101|Brodmann (1909) area 24
 UBERON_0000955|brain|UBERON_0013540|Brodmann (1909) area 9
 UBERON_0000955|brain|UBERON_0001873|caudate nucleus
+UBERON_0000955|brain|UBERON_0001873|caudate
 UBERON_0000955|brain|UBERON_0002245|cerebellar hemisphere
 UBERON_0000955|brain|UBERON_0002037|cerebellum
 UBERON_0000955|brain|UBERON_0000956|cerebral cortex
@@ -55,6 +57,7 @@ UBERON_0000955|brain|UBERON_0002285|telencephalic ventricle
 UBERON_0000955|brain|UBERON_0001893|telencephalon
 UBERON_0000955|brain|UBERON_0001871|temporal lobe
 UBERON_0000310|breast|UBERON_0000310|breast
+UBERON_0000310|breast|UBERON_0000310|breast (mammary tissue)
 UBERON_0001155|colon|UBERON_0001153|caecum
 UBERON_0001155|colon|UBERON_0001155|colon
 UBERON_0001155|colon|UBERON_0001159|sigmoid colon
@@ -76,8 +79,11 @@ UBERON_0007650|esophagogastric junction|UBERON_0007650|esophagogastric junction
 UBERON_0001043|esophagus|UBERON_0001043|esophagus
 UBERON_0001043|esophagus|UBERON_0002469|esophagus mucosa
 UBERON_0001043|esophagus|UBERON_0004648|esophagus muscularis mucosa
+UBERON_0001043|esophagus|UBERON_0007650|gastroesophageal junction
 UBERON_0002365|exocrine gland|UBERON_0001911|mammary gland
+UBERON_0002365|exocrine gland|UBERON_0001911|lactating breast
 UBERON_0000948|heart|UBERON_0006618|atrium auricular region
+UBERON_0000948|heart|UBERON_0006618|atrial appendage of heart
 UBERON_0000948|heart|UBERON_0002082|cardiac ventricle
 UBERON_0000948|heart|UBERON_0001621|coronary artery
 UBERON_0000948|heart|UBERON_0000948|heart
@@ -103,6 +109,7 @@ UBERON_0000160|intestine|UBERON_0000160|intestine
 UBERON_0000160|intestine|UBERON_0001153|caecum
 UBERON_0000160|intestine|UBERON_0000059|large intestine
 UBERON_0000160|intestine|UBERON_0001154|vermiform appendix
+UBERON_0000160|intestine|UBERON_0001154|appendix
 UBERON_0000160|intestine|UBERON_0002116|ileum
 UBERON_0000160|intestine|UBERON_0002108|small intestine
 UBERON_0000160|intestine|UBERON_0003454|small intestine Peyer's patch
@@ -120,18 +127,22 @@ UBERON_0002360|meninx|UBERON_0002363|dura mater
 UBERON_0000344|mucosa|UBERON_0001242|intestinal mucosa
 UBERON_0000344|mucosa|UBERON_0003729|oral mucosa
 UBERON_0000344|mucosa|UBERON_0002469|esophagus mucosa
+UBERON_0000344|mucosa|UBERON_0002469|mucosa of esophagus
 UBERON_0001015|musculature|UBERON_0001103|diaphragm
 UBERON_0001015|musculature|UBERON_0001499|muscle of arm
 UBERON_0001015|musculature|UBERON_0001383|muscle of leg
 UBERON_0001015|musculature|UBERON_0002385|muscle tissue
 UBERON_0001015|musculature|UBERON_0001774|skeletal muscle of trunk
 UBERON_0001015|musculature|UBERON_0001134|skeletal muscle tissue
+UBERON_0001015|musculature|UBERON_0001134|skeletal muscle
 UBERON_0001015|musculature|UBERON_0001135|smooth muscle tissue
+UBERON_0001015|musculature|UBERON_0001135|smooth muscle
 UBERON_0001021|nerve|UBERON_0001323|tibial nerve
 UBERON_0000167|oral cavity|UBERON_0000167|oral cavity
 UBERON_0010047|oral gland|UBERON_0001830|minor salivary gland
 UBERON_0010047|oral gland|UBERON_0001831|parotid gland
 UBERON_0010047|oral gland|UBERON_0001044|saliva-secreting gland
+UBERON_0010047|oral gland|UBERON_0001044|salivary gland
 UBERON_0010047|oral gland|UBERON_0001736|submandibular gland
 UBERON_0001264|pancreas|UBERON_0001264|pancreas
 UBERON_0002358|peritoneum|UBERON_0005448|greater omentum
@@ -158,6 +169,7 @@ UBERON_0005156|reproductive structure|UBERON_0001301|epididymis
 UBERON_0005156|reproductive structure|UBERON_0003889|fallopian tube
 UBERON_0005156|reproductive structure|UBERON_0001987|placenta
 UBERON_0005156|reproductive structure|UBERON_0002367|prostate gland
+UBERON_0005156|reproductive structure|UBERON_0002367|prostate
 UBERON_0005156|reproductive structure|UBERON_0000998|vesicular gland
 UBERON_0000020|sense organ|UBERON_0001690|ear
 UBERON_0000020|sense organ|UBERON_0000970|eye
@@ -168,9 +180,13 @@ UBERON_0004765|skeletal element|UBERON_0002371|bone marrow
 UBERON_0004765|skeletal element|UBERON_0002481|bone tissue
 UBERON_0004765|skeletal element|UBERON_0002418|cartilage tissue
 UBERON_0002097|skin of body|UBERON_0001003|epidermis
+UBERON_0002097|skin of body|UBERON_0002097|skin
 UBERON_0002097|skin of body|UBERON_0004264|lower leg skin
+UBERON_0002097|skin of body|UBERON_0004264|skin of lower leg
 UBERON_0002097|skin of body|UBERON_0036149|suprapubic skin
+UBERON_0002097|skin of body|UBERON_0036149|skin of suprapubic
 UBERON_0002097|skin of body|UBERON_0000014|zone of skin
+UBERON_0002097|skin of body|UBERON_0002073|hair
 UBERON_0002240|spinal cord|UBERON_0006469|C1 segment of cervical spinal cord
 UBERON_0002240|spinal cord|UBERON_0002240|spinal cord
 UBERON_0002106|spleen|UBERON_0002106|spleen
@@ -183,3 +199,4 @@ UBERON_0002331|umbilical cord|UBERON_0002331|umbilical cord
 UBERON_0002049|vasculature|UBERON_0000947|aorta
 UBERON_0002049|vasculature|UBERON_0001637|artery
 UBERON_0002049|vasculature|UBERON_0007610|tibial artery
+UBERON_0001013|adipose tissue|UBERON_0010414|omental fat pad
